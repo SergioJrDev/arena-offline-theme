@@ -1,0 +1,156 @@
+.single {
+    figure {
+        height: 200px;
+        background-size: contain;
+        width: 300px;
+        margin: 10px;
+        float: left;
+    }
+} 
+
+.breadcrumb {
+    margin: 15px 0;
+} 
+
+.breadcrumb li {
+    display: inline
+}
+
+.breadcrumb p {
+    margin: 0;
+    font-size: 12px;
+    color: #717171
+}
+.no-pad-top {
+    padding-top: 0 !important;
+}
+
+.breadcrumb a {
+    color: #949494;
+    font-size: 14px
+}
+
+
+.card-price {
+    display: inline-block !important;
+    color: #55ba49;
+    font-size: 20px !important;
+}
+ 
+.game-list {
+    .game-item {
+        border-bottom: 1px solid #dedede;
+        display: block;  
+        h2 {
+            display: inline-block;   
+        }
+    } 
+    .click-game { 
+        padding: 15px 15px; 
+        cursor: pointer; 
+        &:hover {
+            background: #f2f2f2;
+        }
+    }
+} 
+
+.flex-default {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    .card-content {
+        h2 {
+            font-size: 18px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+    }
+    &-item {
+        margin-bottom: 20px;
+    }
+}
+
+
+.pagination {
+    margin: 30px 0;
+}
+
+.pagination a.page-numbers {
+    color: var(--color_theme);
+    padding: 3px 7px;
+    border: 1px solid;
+}
+
+.pagination .page-numbers.current {
+    background: var(--color_theme);
+    padding: 3px 7px;
+    color: #fff;
+    border: 1px solid var(--color_theme);
+}
+
+#coupon_code {
+    width: 100%;
+}
+
+label.woocommerce-form__label.woocommerce-form__label-for-checkbox.inline,
+.woocommerce-shipping-fields {
+    display: none;
+}
+
+.col2-set {
+    .col-1, 
+    .col-2 {
+        width: 100% !important;
+    }
+}
+
+.coupon {
+    margin-bottom: 10px;
+}
+
+
+
+@media screen and (min-width: 992px) {
+    form.woocommerce-checkout {
+        .col2-set,
+        #order_review_heading,
+        .woocommerce-checkout-review-order {
+            width: 45%;
+        }
+        .col2-set {
+            float: left;
+        }
+        #order_review_heading,
+        .woocommerce-checkout-review-order {
+            float: right;
+            margin-bottom: 10px;
+            .woocommerce-checkout-review-order-table {
+                tfoot {
+                    .shipping {
+                        td {
+                            width: 300px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+header {
+    nav {
+        ul {
+            .menu-item:not(.current-menu-item) {
+                &:hover {
+                    background: #333;
+                    a {
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
