@@ -43,7 +43,18 @@
 						</div>
 					<?php } ?>
 				</div>
-
+				
+				<div class="column">
+					<div class="sm-4-12">
+						<img src="<?php echo get_stylesheet_directory_uri() ?>/img/off.jpg" alt="">
+					</div>
+					<div class="sm-4-12">
+						<img src="<?php echo get_stylesheet_directory_uri() ?>/img/card.jpg" alt="">
+					</div>
+					<div class="sm-4-12">
+						<img src="<?php echo get_stylesheet_directory_uri() ?>/img/frete.jpg" alt="">
+					</div>
+				</div>
 
 				<h2 class="font-libre title-section">Jogos em promoçao</h2>
 				<div class=" owl-carousel owl-theme slider-front">
